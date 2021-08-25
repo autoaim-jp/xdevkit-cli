@@ -1,0 +1,4 @@
+#! /bin/bash
+
+deno run --allow-read --allow-write --allow-run --allow-env --allow-net --unstable $HOME/.xdevkit/src/index.js $(pwd)/ $@
+
