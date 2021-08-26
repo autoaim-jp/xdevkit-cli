@@ -16,7 +16,6 @@ const showHelpMessage = () => {
 }
 
 export const main = async () => {
-  const currentDir = Deno.args[0]
   const command = Deno.args[1]
   if(!currentDir || !command) {
     showHelpMessage()
