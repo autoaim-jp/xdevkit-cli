@@ -15,7 +15,7 @@ const chmod = async (filePath: string) => {
 }
 
 const main = async () => {
-  const APP_PATH = Deno.args[0]
+  const APP_PATH = Deno.cwd() + '/'
   const command = Deno.args[1]
 
   const projectName = Deno.args[2] || 'xdevkit-sample-' + cryptoRandomString({ length: 4, type: 'alphanumeric', })

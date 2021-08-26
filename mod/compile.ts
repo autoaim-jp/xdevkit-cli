@@ -190,7 +190,7 @@ const removeBuildDir = () => {
 }
 
 const main = async () => {
-  const APP_PATH = Deno.args[0]
+  const APP_PATH = Deno.cwd() + '/'
   const command = Deno.args[1]
 
   const argList = parse(Deno.args)
