@@ -28,7 +28,7 @@ let EJS_PATH_OUT: string = ''
 let TAILWIND_CONFIG: string = ''
 let TAILWIND_CSS_PATH: string = ''
 let MINIFY_HTML: boolean = false
-const IGNORE_SRC_JS_DIR: string = '__xdevkit_common_copy'
+const IGNORE_SRC_JS_DIR: string = '_setting'
 
 const buildAllJs = async () => {
   const promiseList = []
